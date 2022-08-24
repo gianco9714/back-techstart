@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "9df68a49-8549-47e7-be35-294b00e7ca8f",
+		"name": "TechStart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10067940"
+	},
+	"item": [
+		{
+			"name": "get all invoices with filters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/invoices?invoiceNumber=1111&distributorName=Dist%20A&customerName=Cust%20A&product=Eggs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "invoiceNumber",
+							"value": "1111"
+						},
+						{
+							"key": "distributorName",
+							"value": "Dist%20A"
+						},
+						{
+							"key": "customerName",
+							"value": "Cust%20A"
+						},
+						{
+							"key": "product",
+							"value": "Eggs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all invoices ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
