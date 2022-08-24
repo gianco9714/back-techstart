@@ -1,0 +1,185 @@
+[{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6ea"
+  },
+  "invoiceNumber": "1111",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1003726800000"
+    }
+  },
+  "distributorName": "Dist A",
+  "distributorAddress": "D Address A",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf A",
+  "manufacturerAddress": "M Address A",
+  "productCode": "123",
+  "productDescription": "Almonds",
+  "unitOfMeasure": "CASE",
+  "purchasedQty": "5",
+  "purchasedWeight": 50,
+  "unitPrice": 7,
+  "totalPrice": 35
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6eb"
+  },
+  "invoiceNumber": "1111",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1003726800000"
+    }
+  },
+  "distributorName": "Dist A",
+  "distributorAddress": "D Address A",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf B",
+  "manufacturerAddress": "M Address B",
+  "productCode": "125",
+  "productDescription": "Eggs",
+  "unitOfMeasure": "CASE",
+  "purchasedQty": "10",
+  "purchasedWeight": 20,
+  "unitPrice": 5,
+  "totalPrice": 50
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6ec"
+  },
+  "invoiceNumber": "1111",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1003726800000"
+    }
+  },
+  "distributorName": "Dist A",
+  "distributorAddress": "D Address A",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf C",
+  "manufacturerAddress": "M Address C",
+  "productCode": "126",
+  "productDescription": "Russet Potatoes",
+  "unitOfMeasure": "WEIGHT",
+  "purchasedQty": "40",
+  "purchasedWeight": 40,
+  "unitPrice": 3,
+  "totalPrice": 120
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6ed"
+  },
+  "invoiceNumber": "1112",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1003899600000"
+    }
+  },
+  "distributorName": "Dist B",
+  "distributorAddress": "D Address B",
+  "customerName": "Cust B",
+  "customerAddress": "C Address B",
+  "manufacturerName": "Manuf A",
+  "manufacturerAddress": "M Address A",
+  "productCode": "123",
+  "productDescription": "Almonds",
+  "unitOfMeasure": "CASE",
+  "purchasedQty": "10",
+  "purchasedWeight": 100,
+  "unitPrice": 7,
+  "totalPrice": 70
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6ee"
+  },
+  "invoiceNumber": "1112",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1003899600000"
+    }
+  },
+  "distributorName": "Dist B",
+  "distributorAddress": "D Address B",
+  "customerName": "Cust B",
+  "customerAddress": "C Address B",
+  "manufacturerName": "Manuf D",
+  "manufacturerAddress": "M Address D",
+  "productCode": "127",
+  "productDescription": "Onions",
+  "unitOfMeasure": "WEIGHT",
+  "purchasedQty": "30",
+  "purchasedWeight": 30,
+  "unitPrice": 2.5,
+  "totalPrice": 75
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6ef"
+  },
+  "invoiceNumber": "1113",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1004072400000"
+    }
+  },
+  "distributorName": "Dist C",
+  "distributorAddress": "D Address C",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf A",
+  "manufacturerAddress": "M Address A",
+  "productCode": "124",
+  "productDescription": "Ketchup",
+  "unitOfMeasure": "CASE",
+  "purchasedQty": "12",
+  "purchasedWeight": 100,
+  "unitPrice": 9,
+  "totalPrice": 108
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6f0"
+  },
+  "invoiceNumber": "1113",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1004072400000"
+    }
+  },
+  "distributorName": "Dist C",
+  "distributorAddress": "D Address C",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf D",
+  "manufacturerAddress": "M Address D",
+  "productCode": "127",
+  "productDescription": "Onions",
+  "unitOfMeasure": "WEIGHT",
+  "purchasedQty": "25",
+  "purchasedWeight": 25,
+  "unitPrice": 2.5,
+  "totalPrice": 62.5
+},{
+  "_id": {
+    "$oid": "630543fd10761d57d931a6f1"
+  },
+  "invoiceNumber": "1113",
+  "invoiceDate": {
+    "$date": {
+      "$numberLong": "1004072400000"
+    }
+  },
+  "distributorName": "Dist C",
+  "distributorAddress": "D Address C",
+  "customerName": "Cust A",
+  "customerAddress": "C Address A",
+  "manufacturerName": "Manuf E",
+  "manufacturerAddress": "M Address E",
+  "productCode": "128",
+  "productDescription": "Mayonnaisse",
+  "unitOfMeasure": "CASE",
+  "purchasedQty": "7",
+  "purchasedWeight": 70,
+  "unitPrice": 10,
+  "totalPrice": 70
+}]
