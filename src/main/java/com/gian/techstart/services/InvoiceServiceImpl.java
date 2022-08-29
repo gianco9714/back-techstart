@@ -26,13 +26,13 @@ public class InvoiceServiceImpl implements InvoiceService {
         final List<Criteria> criteria = new ArrayList<>();
 
         if (invoiceNumber != null && !invoiceNumber.isEmpty())
-        criteria.add(Criteria.where("invoiceNumber").is(invoiceNumber));
+        criteria.add(Criteria.where("invoiceNumber").regex(invoiceNumber,"i"));
         if (distributorName != null && !distributorName.isEmpty())
-        criteria.add(Criteria.where("distributorName").is(distributorName));
+        criteria.add(Criteria.where("distributorName").regex(distributorName,"i"));
         if (customerName != null && !customerName.isEmpty())
-        criteria.add(Criteria.where("customerName").is(customerName));
+        criteria.add(Criteria.where("customerName").regex(customerName,"i"));
         if (product != null && !product.isEmpty())
-        criteria.add(Criteria.where("productDescription").is(product));
+        criteria.add(Criteria.where("productDescription").regex(product,"i"));
         if (!criteria.isEmpty())
         query.addCriteria(new Criteria().andOperator(criteria.toArray(new Criteria[criteria.size()])));
         return mongoTemplate.find(query, Invoice.class);
